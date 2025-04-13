@@ -1,0 +1,166 @@
+h4{
+    font-weight: lighter;
+    font-style: italic;
+    color: blue;
+}
+ul{
+   padding-left: 5px;
+    text-align: justify;
+    color: aquamarine !important;}
+body{
+    background-color: rgb(213, 240, 220) !important;
+}
+/* === GLOBAL RESETS === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+    color: #222;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  a {
+    color: #0077cc;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #005fa3;
+  }
+  
+  /* === NAVIGATION === */
+  .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-link {
+    font-weight: 600;
+    color: #333 !important;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #0077cc !important;
+  }
+  
+  /* === HEADER === */
+  .masthead {
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .page-heading h1,
+  .post-heading h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .page-heading span,
+  .post-heading span {
+    font-size: 1.2rem;
+    opacity: 0.85;
+  }
+  
+  /* === CONTENT === */
+  .container {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* === LISTS === */
+  ol, ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* === BUTTONS === */
+  button, .btn {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover, .btn:hover {
+    background-color: #005fa3;
+  }
+  
+  /* === FOOTER === */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffffff;
+    border-top: 1px solid #e4e4e4;
+    margin-top: 40px;
+  }
+  
+  footer .small {
+    color: #666;
+  }
+  
+  /* === MEDIA QUERIES === */
+  @media (max-width: 768px) {
+    .masthead {
+      padding: 60px 0;
+    }
+  
+    .page-heading h1,
+    .post-heading h1 {
+      font-size: 2rem;
+    }
+  
+    .container {
+      padding: 15px;
+    }
+  }
+  
+  /* === EXTRAS: SMOOTH CARD EFFECTS === */
+  .container:hover {
+    transform: translateY(-3px);
+    transition: transform 0.3s ease;
+  }
+  
+  /* === SMOOTH IMAGE ZOOM ON HOVER === */
+  img:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+  }
+  
